@@ -1,0 +1,34 @@
+
+’	java:S116"PRename this field "Title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¨„æ8º‘±·ç1J$bbe1b2a2-845c-4632-b820-5d93eedb9a30
+‘	java:S116	"ORename this field "Year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÑÑû8»‘±·ç1J$bbafb259-b02b-425a-b443-ec2ff16487c4
+š	java:S116
+"SRename this field "Released" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¤Õÿÿÿÿÿ8»‘±·ç1J$103f3008-f938-4e38-8b58-fdd9195eb446
+”	java:S116"RRename this field "Runtime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¦Ã©8»‘±·ç1J$9af3155d-9bec-4c47-acbb-fb50e5988db3
+’	java:S116"PRename this field "Genre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖãâÃ8»‘±·ç1J$7e1f01ba-5d7d-4c48-a74f-b349492d0240
+–	java:S116"ORename this field "Plot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ·¤Úÿÿÿÿÿ8ú‚´·ç1J$708a5bf9-152d-4e0e-8715-12519e3a1c14
+•	java:S116"SRename this field "Language" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÄîÜ8º¥´·ç1J$25dc05d5-ae87-49a0-8c9c-f4e0faab7142
+“	java:S116"RRename this field "Country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š„’98Ñ‰µ·ç1J$b41d7830-c1d1-4c42-800d-24ec7ba7f784
+˜	java:S116"QRename this field "Awards" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¿ÖÜşÿÿÿÿ8Ñ‰µ·ç1J$f9091789-c9ad-4de2-9b76-52f1c6f96009
+˜	java:S116"QRename this field "Poster" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îüæùÿÿÿÿ8ÚÑµ·ç1J$b4f25aaf-561f-4891-ae20-98e375d13cca
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(í·Éıÿÿÿÿ8¬ ³·ç1J$bf589930-e143-4925-ab00-9c9fd04020d9
+m
+java:S1068"*Remove this unused "imdbID" private field.(À˜á©8À‘±·ç1J$76d36b2a-9ac9-474b-b23d-8a65d32df6ef
+l
+java:S1068")Remove this unused "Title" private field.(ã¨„æ8Á‘±·ç1J$f96c9f5f-fbcf-4dd9-a62b-1a4098ae8419
+t
+java:S1068
+",Remove this unused "Released" private field.(ø¤Õÿÿÿÿÿ8Á‘±·ç1J$2c27645e-2e6f-4b6d-aff4-d1f7d862c379
+n
+java:S1068"+Remove this unused "Runtime" private field.(À¦Ã©8Á‘±·ç1J$1cc75542-5ab4-4eb1-ade9-8de531f2a490
+l
+java:S1068")Remove this unused "Genre" private field.(ÖãâÃ8Á‘±·ç1J$5e4fdf7c-67f8-4523-a9a0-2d8961f9eed4
+p
+java:S1068"(Remove this unused "Plot" private field.(Ñ·¤Úÿÿÿÿÿ8‹ƒ´·ç1J$2d33b049-22cd-4dc2-ae47-84b5fec7b905
+o
+java:S1068",Remove this unused "Language" private field.(îÄîÜ8À¥´·ç1J$21b1cc79-b4c2-4181-a884-a3d97c6cc664
+m
+java:S1068"+Remove this unused "Country" private field.(š„’98×‰µ·ç1J$dae6881d-264f-48e2-8bd4-4c666949eb4d
+r
+java:S1068"*Remove this unused "Awards" private field.(ÿ¿ÖÜşÿÿÿÿ8×‰µ·ç1J$8a58486c-4fcf-476a-afbb-82a77e46de0b
+r
+java:S1068"*Remove this unused "Poster" private field.(Îüæùÿÿÿÿ8áÑµ·ç1J$e3f6957a-f4da-41f5-9c60-102b2d814389
