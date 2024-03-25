@@ -5,20 +5,20 @@ import org.json.JSONException;
 import java.util.ArrayList;
 
 public class JsonUtil {
-    public static String arrToJsonString(ArrayList<String> list) throws JSONException {
+    public static <T> String arrToJsonString(ArrayList<T> list) throws JSONException {
         JSONArray jsonArray = new JSONArray();
-        for (String item : list) {
+        for (T item : list) {
             jsonArray.put(item);
         }
         return jsonArray.toString();
     }
 
-    public static ArrayList<String> jsonToStringArr(String json) throws JSONException {
-        ArrayList<String> arr = new ArrayList<>();
+    public static <T> ArrayList<T> jsonToStringArr(String json) throws JSONException {
+        ArrayList<T> arr = new ArrayList<>();
         JSONArray jsonArray = new JSONArray(json);
 
         for (int i = 0; i < jsonArray.length(); i++) {
-            arr.add(jsonArray.getString(i));
+            arr.add((T) jsonArray.getString(i));
         }
         return arr;
     }
