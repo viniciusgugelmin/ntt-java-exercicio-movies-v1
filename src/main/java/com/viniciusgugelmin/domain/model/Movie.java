@@ -1,6 +1,8 @@
 package main.java.com.viniciusgugelmin.domain.model;
 
 import java.time.Year;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 
 public class Movie {
@@ -10,9 +12,9 @@ public class Movie {
     private Date Released;
     private Double Runtime;
     private String Genre;
-    /*private String Director;*/
-    /*private String Writer;*/
-    /*private String Actors;*/
+    private Director Director;
+    private Writer Writer;
+    private ArrayList<Actor> Actors;
     private String Plot;
     private Language Language;
     private Country Country;
@@ -35,6 +37,10 @@ public class Movie {
         Title = title;
     }
 
+    public Year getYear() {
+        return Year;
+    }
+
     public Date getReleased() {
         return Released;
     }
@@ -42,7 +48,9 @@ public class Movie {
     public void setReleased(Date released) {
         Released = released;
 
-        Year = Year.of(released.getYear() + 1900);
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(released);
+        this.Year = java.time.Year.of(calendar.get(Calendar.YEAR));
     }
 
     public Double getRuntime() {
@@ -59,6 +67,30 @@ public class Movie {
 
     public void setGenre(String genre) {
         Genre = genre;
+    }
+
+    public Director getDirector() {
+        return Director;
+    }
+
+    public void setDirector(Director director) {
+        Director = director;
+    }
+
+    public Writer getWriter() {
+        return Writer;
+    }
+
+    public void setWriter(Writer writer) {
+        Writer = writer;
+    }
+
+    public ArrayList<Actor> getActors() {
+        return Actors;
+    }
+
+    public void setActors(ArrayList<Actor> actors) {
+        Actors = actors;
     }
 
     public String getPlot() {

@@ -1,17 +1,0 @@
-
-’	java:S116"PRename this field "Title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¨„æ8º‘±·ç1J$7d8aa6e3-917c-4ded-9c9b-81d8241065a6
-‘	java:S116	"ORename this field "Year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÑÑû8»‘±·ç1J$4e1963a5-0087-40c4-a655-edd240b03280
-š	java:S116
-"SRename this field "Released" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¤Õÿÿÿÿÿ8»‘±·ç1J$7a0376f3-f693-49a6-91df-e57a2eb0d2ef
-”	java:S116"RRename this field "Runtime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¦Ã©8»‘±·ç1J$ca296a78-fffe-4227-8a0f-713d369ad3ef
-’	java:S116"PRename this field "Genre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖãâÃ8»‘±·ç1J$488e519a-54e8-456d-8926-28d8ca8ffa89
-–	java:S116"ORename this field "Plot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ·¤Úÿÿÿÿÿ8ú‚´·ç1J$25a17709-197d-4fe8-aad4-f7776579dfcf
-•	java:S116"SRename this field "Language" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À­ê¹8º¥´·ç1J$6a1aa543-6b71-43ce-aa23-685a1c3f7037
-™	java:S116"RRename this field "Country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¬ÖÔıÿÿÿÿ8Ñ‰µ·ç1J$8038dbf8-b1de-47fb-b33b-b1b6008cd557
-˜	java:S116"QRename this field "Awards" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¿ÖÜşÿÿÿÿ8Ñ‰µ·ç1J$19d5cd92-8dca-411d-b421-c1bf08516c5b
-˜	java:S116"QRename this field "Poster" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îüæùÿÿÿÿ8ÚÑµ·ç1J$0614020e-d6ad-44d3-963c-9bbabc6c1a9b
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(í·Éıÿÿÿÿ8¬ ³·ç1J$5137a683-cfee-417a-9820-d4af8e69566d
-x
-java:S2209-"5Change this instance-reference to a static reference.(×æõÃ8úÅ·ç1J$52e6b6d7-ced2-4946-9e1f-98ee799368dd
-r
-java:S1874-"/Remove this use of "getYear"; it is deprecated.(×æõÃ8şÅ·ç1J$6d480805-3612-43cc-83a5-a2576b3a9116
