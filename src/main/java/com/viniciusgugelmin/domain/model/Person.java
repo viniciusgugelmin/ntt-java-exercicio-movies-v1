@@ -9,19 +9,22 @@ abstract class Person {
         this.country = country;
     }
 
-    protected String getName() {
+    protected Person() {
+    }
+
+    public String getName() {
         return name;
     }
 
-    protected void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    protected Country getCountry() {
+    public Country getCountry() {
         return country;
     }
 
-    protected void setCountry(Country country) {
+    public void setCountry(Country country) {
         this.country = country;
     }
 }
