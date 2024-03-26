@@ -2,6 +2,8 @@ package main.java.com.viniciusgugelmin.util;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 public class JsonUtil {
@@ -13,13 +15,11 @@ public class JsonUtil {
         return jsonArray.toString();
     }
 
-    public static <T> ArrayList<T> jsonToStringArr(String json) throws JSONException {
-        ArrayList<T> arr = new ArrayList<>();
-        JSONArray jsonArray = new JSONArray(json);
+    public static <T> ArrayList<T> jsonToStringArr(String json, String key) throws JSONException {
+        JSONObject jsonObject = new JSONObject(json);
 
-        for (int i = 0; i < jsonArray.length(); i++) {
-            arr.add((T) jsonArray.getString(i));
-        }
-        return arr;
+        JSONArray jsonArray = jsonObject.getJSONArray(key);
+
+        return (ArrayList<T>) jsonArray.toList();
     }
 }
